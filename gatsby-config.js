@@ -4,12 +4,16 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Provisional`,
+    siteTitle: `Provisional`,
+    siteTitleAlt: `Provisional - A Podcast`,
+    siteHeadline: `Be water not stone`,
+    siteUrl: `https://provisional.netlify.app`,
+    siteDescription: `A podcast about challenging assumptions`,
+    author: `@sparlingo`
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
-      // See the theme's README for all available options
       options: {
         navigation: [
           {
@@ -24,7 +28,7 @@ module.exports = {
         externalLinks: [
           {
             name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            url: `https://twitter.com/provisional`,
           },
           {
             name: `Instagram`,
@@ -43,8 +47,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
+        name: `Provisional - a podcast`,
+        short_name: `Provisional`,
         description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
         start_url: `/`,
         background_color: `#fff`,

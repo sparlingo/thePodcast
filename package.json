@@ -5,7 +5,6 @@
   "version": "1.1.7",
   "author": "LekoArts <hello@lekoarts.de>",
   "license": "MIT",
-  "starter-name": "gatsby-starter-minimal-blog",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
