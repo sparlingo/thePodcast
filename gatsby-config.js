@@ -9,7 +9,7 @@ module.exports = {
     siteHeadline: `Be water not stone`,
     siteUrl: `https://provisional.netlify.app`,
     siteDescription: `A podcast about challenging assumptions`,
-    author: `@sparlingo`
+    author: `@provisional`
   },
   plugins: [
     {
@@ -40,15 +40,6 @@ module.exports = {
           },
         ],
       },
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-vega`
-        ]
-      }
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
