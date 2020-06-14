@@ -15,10 +15,14 @@ module.exports = {
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       options: {
+        basePath: '/',
+        blogPath: '/episodes',
+        postsPath: 'content/episodes',
+        formatString: 'YYYY-MM-DD',
         navigation: [
           {
-            title: `Blog`,
-            slug: `/blog`,
+            title: `Episodes`,
+            slug: `/episodes`,
           },
           {
             title: `About`,
@@ -32,7 +36,7 @@ module.exports = {
           },
           {
             name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            url: `https://www.instagram.com/provisional`,
           },
         ],
       },
