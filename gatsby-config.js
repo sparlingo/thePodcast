@@ -32,13 +32,20 @@ module.exports = {
         externalLinks: [
           {
             name: `Twitter`,
-            url: `https://twitter.com/provisional`,
+            url: `https://twitter.com/itsprovisional`,
           },
           {
             name: `Instagram`,
-            url: `https://www.instagram.com/provisional`,
+            url: `https://www.instagram.com/Provisional.Podcast`,
           },
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        displayName: process.env.NODE_ENV !== `production`,
+        fileName: false,
       },
     },
     {
