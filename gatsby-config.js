@@ -9,7 +9,7 @@ module.exports = {
     siteHeadline: `Be water not stone`,
     siteUrl: `https://provisional.netlify.app`,
     siteDescription: `A podcast about challenging assumptions`,
-    author: `@provisional`
+    author: `@itsprovisional`
   },
   plugins: [
     {
