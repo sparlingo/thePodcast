@@ -41,17 +41,17 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: 'gatsby-source-sanity',
-      options: {
-        projectId: 'x8pzsd5o',
-        dataset: 'development',
-        token: process.env.MY_SANITY_TOKEN,
-        // If the Sanity GraphQL API was deployed using `--tag <name>`,
-        // use `graphqlTag` to specify the tag name. Defaults to `default`.
-        graphqlTag: 'default',
-      },
-    },
+    // {
+    //   resolve: 'gatsby-source-sanity',
+    //   options: {
+    //     projectId: 'x8pzsd5o',
+    //     dataset: 'development',
+    //     token: process.env.MY_SANITY_TOKEN,
+    //     // If the Sanity GraphQL API was deployed using `--tag <name>`,
+    //     // use `graphqlTag` to specify the tag name. Defaults to `default`.
+    //     graphqlTag: 'default',
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
